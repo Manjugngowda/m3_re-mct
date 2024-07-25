@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    gap: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+.navigation:hover{
+    color: rgb(11, 124, 11);
+    cursor: pointer;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+    background-color: aliceblue;
+}
+.location{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin:0.5rem ;
+}
+.location select{
+    border: none;
+    padding: 2px;
+    align-items: center;
+}
+.search{
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin:0.5rem ;
+    width: 40%;
+}
+.search div{
+    height: 30px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.search input{
+    width: 100%;
+    border-radius: 5px;
+}
+.login{
+    text-decoration: underline;
+}
+.login:hover{
+    text-decoration: none;
+}
+.text-size{
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    padding: 0.2rem;
+}
+.lang select{
+    background-color: aliceblue;
+    border: none;
+    
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    margin: 0.5rem  1rem;
+    justify-content: space-evenly;
+}
+.navigation select{
+    border: none;
+}
+
+
+.main{
+    display: flex;
+    flex-flow: wrap;
+    /* margin: 1rem 1rem; */
+    width: auto;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.main:hover{
+    cursor: pointer;
+}
+.item{
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+}
+
+
+.wishlist{
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    padding: 2px;
+    font-size: 25px;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 1rem;
+    
+}
+.text{
+    font-size: 15px;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+.day{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 1rem;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+/* load-more */
+.load-more{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 4rem;
+
+}
+.load-more a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.load-more a:hover{
+    border: 5px solid black;
+}
+
+.playstore{
+    margin-top: 1rem;
+    width: 90%;
+   
+}
+ .about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(215, 216, 218);
+ }
+ .about:hover{
+    cursor: pointer;
+    color: bl;
+ }
+ .about ul{
+    list-style-type: none;
+ }
+ li{
+    margin: 0.5rem;
+    font-size: 15px;
+    color: grey;
+ }
+ .about div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .about p{
+    margin-bottom: 1rem;
+    font-weight:bolder
+ }
+.footer{
+    background-color: rgb(3, 44, 44);
+}
+.footer:hover{
+    cursor: pointer;
+}
+.footer-logo img{
+    width: 200px;
+    height: 200px;
+    margin: 0 0.5rem;
+}
+.help-copy{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+}
+h1{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 500px) {
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .playstore{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  
+
+   }
